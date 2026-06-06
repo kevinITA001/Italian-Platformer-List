@@ -1,10 +1,10 @@
 {
-    "id": 99195742
+    "id": 99195742,
     "name": "im happy 4 you",
-    "percentToQualify": "100",
+    "percentToQualify": 100,
     "author": "No ob",
     "verifier": "Gigaprox",
     "creators": [],
-    "verification": "https://youtu.be/DAGaFWS3uiM?is=F4zP1aeDsLpxRGy6" ,
+    "verification": "https://youtu.be",
     "records": []
 }
