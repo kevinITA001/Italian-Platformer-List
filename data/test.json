@@ -1,6 +1,7 @@
 {
     "id": 12345678,
     "name": "Delightful Climb",
+    "percentToQualify": "100",
     "author": "Creatore",
     "creators": [],
     "verifier": "Verifier",
