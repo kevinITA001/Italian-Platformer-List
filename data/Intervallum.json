@@ -1,7 +1,7 @@
 {
     "id": 104049200,
     "name": "Intervallum",
-    "percentToQualify": "100",
+    "percentToQualify": 100,
     "author": "MaddyGMD",
     "verifier": "KevinITA",
     "creators": [],
