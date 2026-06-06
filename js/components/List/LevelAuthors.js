@@ -8,7 +8,7 @@ export default {
             type: Array,
             required: true,
         },
-        verifier: {
+        first italy victor: {
             type: String,
             required: true,
         },
