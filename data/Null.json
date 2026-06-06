@@ -1,14 +1,16 @@
 {
-    "id":104031134 ,
+    "id": 104031134,
     "name": "Null",
-    "percentToQualify": "100",
+    "percentToQualify": 100,
     "author": "RealMatter",
     "verifier": "kevinITA",
     "creators": [],
-    "verification": "https://youtu.be/dWentAPVcqg?is=WIkp0ZSMgzmLfYMm",
+    "verification": "https://youtu.be/dWentAPVcqg?is=7YBCGh4xyhc2OdGB",
     "records": [
         {
             "user": "Gigaprox",
-            "link": "https://youtu.be/btKD4ANy5s0?is=RQmhfI0BZzj1fJbV",
+            "link": "https://youtu.be/btKD4ANy5s0?is=RgY-sywqBZcprcDS",
             "percent": 100
         }
+    ]
+}
