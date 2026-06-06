@@ -8,7 +8,7 @@ export default {
             type: Array,
             required: true,
         },
-        first italy victor: {
+        first victor: {
             type: String,
             required: true,
         },
