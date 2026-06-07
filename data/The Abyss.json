@@ -6,5 +6,11 @@
     "verifier": "kevinITA",
     "creators": [],
     "verification": "https://youtu.be/AoqcKgj0PAQ?si=_jV9fCK3Zprupcv1",
-    "records": []
+    "records": [
+        {
+            "user": "Elia Soverini",
+            "link": "https://youtu.be/GKyI4EKl9AE?si=BUctq6MveChFgAL7",
+            "percent": 100
+        }
+    ]
 }
