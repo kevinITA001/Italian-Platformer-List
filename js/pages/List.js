@@ -71,9 +71,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="time">
-                                <p <td class="time">
-    <p v-if="record.time">{{ record.time }}</p>
-</td>
+                                <p v-if="record.time">{{ record.time }}</p>
                             </td>
                         </tr>
                     </table>
@@ -88,7 +86,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md"><a href="https://tsl.pages.dev/" target="_blank"></a></p>
+                        <p class="type-label-md"><a href="https://pages.dev" target="_blank"></a></p>
                     </div>
                     <template v-if="editors">
                         <h3>List Editors</h3>
