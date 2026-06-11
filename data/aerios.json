@@ -1,10 +1,11 @@
 {
-    "id": 111048577,
+    "id":111048577,
     "name": "Aerios",
-    "percentToQualify":100,
+    "percentToQualify": 100,
     "author": "Orelu",
+    "password": "",
     "verifier": "KevinITA",
     "creators": [],
-    "verification": "https://youtu.be/OwnCNYwIeSE?si=ECg9GHgO2Gsgp1ky",
+    "verification": "https://youtu.be/OwnCNYwIeSE?si=txGUN3lLy6ClxztV",
     "records": []
 }
