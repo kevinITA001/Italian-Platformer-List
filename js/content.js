@@ -26,7 +26,7 @@ export async function fetchList() {
                     ];
                 } catch {
                     console.error(`Failed to load level #${rank + 1} ${path}.`);
-                    return [null, path];
+                    continue [null, path];
                 }
             }),
         );
