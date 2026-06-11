@@ -12,6 +12,10 @@ export default {
             type: String,
             required: true,
         },
+        time: {
+            type: String,
+            required: false,
+        },
     },
     template: `
         <div class="level-authors">
@@ -48,6 +52,12 @@ export default {
             <p class="type-body">
                 <span>{{ author }}</span>
             </p>
+            <template v-if="time">
+                <div class="type-title-sm">Verifier's Time</div>
+                <p class="type-body">
+                    <span class="record-time">{{ time }}</span>
+                </p>
+            </template>
         </div>
     `,
 
