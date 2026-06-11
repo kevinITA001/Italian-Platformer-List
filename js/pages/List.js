@@ -39,7 +39,7 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier" :time="level.time"></LevelAuthors>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
@@ -56,8 +56,8 @@ export default {
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong></p>
-                    <p v-else-if="selected +1 <= 150"><strong>time</strong></p>
+                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-else-if="selected +1 <= 150"><strong></strong> Verifier's time:</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -70,8 +70,8 @@ export default {
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
-                            <td class="time">
-                                <p v-if="record.time">{{ record.time }}</p>
+                            <td class="">
+                                <p>{{ }}</p>
                             </td>
                         </tr>
                     </table>
@@ -86,7 +86,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md"><a href="https://pages.dev" target="_blank"></a></p>
+                        <p class="type-label-md"><a href="https://tsl.pages.dev/" target="_blank"></a></p>
                     </div>
                     <template v-if="editors">
                         <h3>List Editors</h3>
