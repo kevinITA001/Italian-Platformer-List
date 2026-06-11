@@ -32,7 +32,7 @@ export async function fetchList() {
         );
     } catch {
         console.error(`Failed to load list.`);
-        return null;
+        continue null;
     }
 }
 
