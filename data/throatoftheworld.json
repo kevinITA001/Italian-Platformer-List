@@ -7,5 +7,16 @@
     "verifier": "JorJuz",
     "creators": [],
     "verification": "https://youtu.be/7i9yEdOi37c?si=ymgUt8VmmiQPfR2O",
-    "records": []
+    "records": [
+        {
+            "user": "Elia Soverini",
+            "link": "https://youtu.be/bX0VSQ4_TWw?si=4in3ysZnDzkENUCR",
+            "percent": 100
+        },
+        {
+            "user": "DUD-DINO",
+            "link": "https://youtu.be/QdyAHD6nZ_0?si=kDlhiM736EOwf6Sa",
+            "percent": 100
+        }
+    ]
 }
