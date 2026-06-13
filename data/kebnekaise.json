@@ -7,5 +7,11 @@
     "verifier": "Elia Soverini",
     "creators": [],
     "verification": "https://youtu.be/XyhdCzjFj44?si=46tMJqQ1a-xK628n",
-    "records": []
+    "records": [
+        {
+            "user": "ForzaCasteddu",
+            "link": "https://www.youtube.com/watch?v=F3op3Up6oTo",
+            "percent": 100
+        }
+    ] 
 }
