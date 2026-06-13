@@ -7,5 +7,11 @@
     "verifier": "JorJuz",
     "creators": [],
     "verification": "https://youtu.be/ZpjfMqPA-3A?si=Ui3fd4oXWTABUdKC",
-    "records": []
+    "records": [
+         {
+            "user": "JorJuz",
+            "link": "https://www.youtube.com/watch?v=ZpjfMqPA-3A",
+            "percent": 100
+        }
+    ]
 }
